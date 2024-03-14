@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="center">Works log</h2>
+
+{% for job in result %}
+    <h3>Action # {{ loop.index }}</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="width: 150px; background-color: #f3e8e8;">Title of activity</th>
+                <th style="width: 150px; background-color: #f3e8e8;">Team Leader</th>
+                <th style="width: 100px; background-color: #f3e8e8;">Duration</th>
+                <th style="width: 150px; background-color: #f3e8e8;">List of collaborators</th>
+                <th style="width: 100px; background-color: #f3e8e8;">is finished</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 150px; background-color: #f0f0f0;">{{ job[0] }}</td>
+                <td style="width: 150px; background-color: #f0f0f0;">{{ job[1] }}</td>
+                <td style="width: 100px; background-color: #f0f0f0;">{{ job[2] }}</td>
+                <td style="width: 150px; background-color: #f0f0f0;">{{ job[3] }}</td>
+                <td style="width: 100px; background-color: #f0f0f0;">{{ job[4] }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endfor %}
+
+{% endblock %}

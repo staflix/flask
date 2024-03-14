@@ -1,0 +1,23 @@
+h4 {
+    color: green;
+    padding: 20px;
+}
+
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #ffcc00;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.access-container {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}

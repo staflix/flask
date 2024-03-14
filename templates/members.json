@@ -1,0 +1,14 @@
+{
+  "1": {
+    "first_name": "Энди",
+    "second_name": "Уир",
+    "filename": "static/img/first.jpg",
+    "special": ["астрогеолог", "специалист по радиальной защите"]
+  },
+  "2": {
+    "first_name": "Дженнисон",
+    "second_name": "Скайволкер",
+    "filename": "static/img/second.jpg",
+    "special": ["пилот", "специалист по летательным аппаратам"]
+  }
+}
